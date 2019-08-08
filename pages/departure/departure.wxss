@@ -1,0 +1,5 @@
+/* pages/departure/departure.wxss */
+.departure-image {
+  height: 100vh;
+  width: 95vw;
+}

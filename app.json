@@ -1,7 +1,12 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/show/show",
+    "pages/arrival/arrival",
+    "pages/departure/departure",
+    "pages/guests/guests",
+    "pages/confirm/confirm"
   ],
   "window": {
     "backgroundTextStyle": "light",

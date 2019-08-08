@@ -1,0 +1,4 @@
+<!--pages/arrival/arrival.wxml-->
+<view>
+  <image class="arrival-image" src="../../images/pages/check_in.png" bindtap="goToDeparture"/>
+</view>

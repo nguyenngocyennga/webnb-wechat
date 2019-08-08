@@ -1,0 +1,5 @@
+/* pages/confirm/confirm.wxss */
+.departure-image {
+  height: 50vh;
+  width: 95vw;
+}

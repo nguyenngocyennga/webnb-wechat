@@ -50,5 +50,20 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  goToApartment: function () {
+    wx.navigateTo({
+      url: '/pages/show/show',
+    })
+  },
+  goToArrival: function () {
+    wx.navigateTo({
+      url: '/pages/arrival/arrival',
+    })
+  },
+  goToDeparture: function () {
+    wx.navigateTo({
+      url: '/pages/departure/departure',
+    })
   }
 })

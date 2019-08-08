@@ -1,13 +1,71 @@
 <!--index.wxml-->
+
+<view class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('../../images/apartments/02.png'); background-position: right">
+  <h2>Find your next exquisite stay with WeBnB</h2>
+</view>
+
 <view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
+  <h3>Where is your next adventure?</h3>
+  <input id="input-title" type="text" placeholder="Chengdu, Sichuan, China" bindinput="handleCity"/>
+
+  <view class="view-2columns">
+    <view>
+      <h3 bindtap="goToArrival">Check in</h3>
+      <input class="input-date-select" type="date" placeholder="mm/dd/yy" 
+      bindinput="handleDateArrival"/>
+    </view>
+  
+    <view>
+      <h3>Check out</h3>
+      <input class="input-date-select" type="date" placeholder="mm/dd/yy" 
+      bindinput="handleDateArrival"/>
+    </view>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+
+    <h3>Guest</h3>
+    <input id="input-capacity" type="number" placeholder="Number of guests" 
+    bindinput="handleCapacity"/>
+
+    <view>
+      <button class="button-full">Search</button>
+    </view>
+
+    <h3>Top Apartments</h3>
+    <view class="view-2columns">
+
+      <view class="individual-apartment" bindtap="goToApartment">
+        <image src="../../images/apartments/03.png"/>
+        <text class="sub-header">PRIVATE ROOM</text>
+        <h4>Khmer Cottage</h4>
+        <text class="sub-text">$5 per night</text>
+      </view>
+
+      <view class="individual-apartment" bindtap="goToApartment">
+        <image src="../../images/apartments/04.png"/>
+        <text class="sub-header">ENTIRE VILLA</text>
+        <h4>Villa Suite</h4>
+        <text class="sub-text">$120 per night</text>
+      </view>
+
+      <view class="individual-apartment" bindtap="goToApartment">
+        <image src="../../images/apartments/05.png"/>
+        <text class="sub-header">TENT</text>
+        <h4>Auto Camping</h4>
+        <text class="sub-text">$75 per night</text>
+      </view>
+
+      <view class="individual-apartment" bindtap="goToApartment">
+        <image src="../../images/apartments/06.png"/>
+        <text class="sub-header">ENTIRE VILLA</text>
+        <h4>Villa Suite</h4>
+        <text class="sub-text">$245 per night</text>
+      </view>
+    </view>
+
+    <view>
+      <button class="button-transparent">Show all apartments</button>
+    </view>
+</view>
+
+<view class="footer">
 </view>

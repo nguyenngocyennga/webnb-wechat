@@ -1,0 +1,5 @@
+/* pages/arrival/arrival.wxss */
+.arrival-image {
+  height: 100vh;
+  width: 95vw;
+}

@@ -1,0 +1,5 @@
+/* pages/guests/guests.wxss */
+.departure-image {
+  height: 100vh;
+  width: 95vw;
+}

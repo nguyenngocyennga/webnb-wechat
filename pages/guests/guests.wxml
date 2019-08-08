@@ -1,0 +1,3 @@
+<view>
+  <image class="departure-image" src="../../images/pages/guests.png" bindtap="goToHome"/>
+</view>

@@ -1,0 +1,56 @@
+<!--pages/show/show.wxml-->
+  <view class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(../../images/apartments/03.png);">
+    <!-- <view class="button-view-photos">
+      <button>View photos</button>
+    </view> -->
+  </view>
+
+<view class="container">
+  <text class="apartment-sub-header"> Private Room </text>
+  <h1> Villa Jasmine </h1>
+
+  <view class="view-2columns">
+    <view class="capacity-icon">
+      <image class ="icon" src="../../images/icons/guest.png"/>
+      <h3>2 guests</h3>
+    </view>
+    <view class="capacity-icon">
+      <image class = "icon" src="../../images/icons/bed_1.png"/>
+      <h3>1 bed</h3>
+    </view>
+  </view>
+
+    <view class="apartment-element">
+      <h3>The space </h3>
+      <text>City Apartment is newly renovated in the heart of Budapest, right in the city centre. Lorem ipsum dolor sit amet, consectetur adpisiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim weniam. </text>
+    </view>
+
+  <view class="apartment-element">
+    <h3> Capacity </h3>
+    <view class="card-border_gray">
+      <image class ="icon" src="../../images/icons/bed_2.png"/> 
+      <h3>Bedroom 1</h3>
+      <text>2 double beds</text>
+    </view>
+  </view>
+
+  <view class="apartment-element">
+    <h3>Availabiltity</h3>
+    <text class="apartment-sub-header">Update 3 days ago</text>
+    <view>
+      <image class="calendar_img" src="../../images/icons/calendar.png" />
+    </view>
+  </view>
+
+  <view class="apartment-element">
+    <view class="view-2columns">
+      <view class="apartment-price">
+        <h3>Villa Jasmine</h3>
+        <text>$75 per night</text>
+      </view>
+      <view>
+        <button class="button-full" bindtap="goToConfirm">Book</button>
+      </view>
+    </view>
+  </view>
+</view>

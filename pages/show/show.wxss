@@ -1,3 +1,14 @@
+.icon {
+height: 50rpx;
+width: 50rpx;
+padding: 20rpx;
+}
+
+.container {
+  /* padding-bottom: 150rpx; */
+  position: relative;
+}
+
 .banner {
   height: 420rpx ;
   background-size: cover;
@@ -9,6 +20,12 @@
   flex-direction: column;
   text-align: center;
   position: relative;
+}
+
+h1 {
+  color: #37474F;
+  font-weight: 900;
+  font-size: 70rpx;
 }
 
 h2 {
@@ -27,6 +44,23 @@ h3 {
   font-weight: 900;
   font-size: 33rpx;
   color: #37474F;
+  padding: 30rpx 0;
+}
+
+h4 {
+  color: #37474F;
+  font-weight: 500;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  margin-left: 5rpx;
+}
+
+text {
+  color: #37474F;
+  font-weight: 300;
+  font-size: 30rpx;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 input {
@@ -62,6 +96,13 @@ input:hover {
   color: #20E6CE;
 }
 
+.banner > .button-view-photos {
+  position: fixed;
+  bottom: 50rpx;
+  right: 50rpx;
+  opacity: 0.5;
+}
+
 button::after {
   border: none
 }
@@ -70,30 +111,20 @@ button::after {
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 30rpx;
-  padding: 30rpx 0;
 }
 
-.individual-apartment {
+.capacity-icon {
   display: flex;
-  flex-direction: column;
-  align-items: left;
+  flex-direction: row;
+  align-items: center;
 }
 
-.individual-apartment > image {
-  object-fit: cover;
-  overflow: hidden;
-  border-radius: 7rpx;
-  width: 42vw;
-  height: 18vh;
-  margin-bottom: 10rpx;
-}
-
-.sub-header {
+.apartment-sub-header {
   color: #37474F;
-  font-weight: 300;
-  font-size: 22rpx;
-  line-height: 30rpx;
-  margin-left: 5rpx;
+  font-weight: 200;
+  font-size: 30rpx;
+  line-height: 28rpx;
+  margin: 0;
 }
 
 .sub-text {
@@ -104,12 +135,37 @@ button::after {
   margin-left: 5rpx;
 }
 
-h4 {
-  color: #37474F;
-  font-weight: 500;
-  font-size: 28rpx;
-  line-height: 40rpx;
-  margin-left: 5rpx;
+.apartment-element {
+  border-top: 1rpx solid rgba(61, 78, 97, 0.2);
+  padding-bottom: 30rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.card-border_gray {
+  background: #FFFFFF;
+  border: 1px solid rgba(61, 78, 97, 0.2);
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  padding: 30rpx;
+  width: 40vw;
+}
+
+.card-border_gray h3 {
+  padding: 0;
+}
+
+.apartment-price {
+  display: flex;
+  flex-direction: column;
+}
+
+.calendar_img {
+  width: 500rpx;
+  height: 550rpx;
+  padding: 30rpx;
 }
 
 /* .footer {
