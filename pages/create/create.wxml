@@ -1,0 +1,72 @@
+
+
+<view class="container">
+  <h1>Create/Update Apartment</h1>
+  
+
+  <view class="box-container">
+    <view>
+     <h3>Photos</h3>
+    </view>
+    
+    <view class="grey-container">
+      <h2>Required</h2>
+    </view>
+
+    <view class="message">
+      <text>Be sure to use a photo that clearly shows your apartment and doesn't include any personal or senstitive info</text>
+    </view>
+
+    <view>
+      <button class="button-transparent">Take or upload a photo</button>
+    </view>
+    
+  </view>
+
+
+  <view class="box-container">
+    <view class="grey-container">
+      <h2>Required</h2>
+    </view>
+
+    <view class="view-2columns">
+      <h3>Title</h3>
+      <input type="text" placeholder="Cozy apartment"/>
+    </view>
+
+    <view  class="view-2columns">
+      <h3>City</h3>
+      <input type="text" placeholder="Chengdu"/>
+    </view>
+
+    <view class="view-2columns">
+      <h3>Address</h3>
+      <input type="text" placeholder="Pinncale One, Chunxi"/>
+    </view>
+
+    <view class="view-2columns">
+      <h3>Capcaity</h3>
+      <input type="number" placeholder="12 people"/>
+    </view>
+
+    <view class="view-2columns">
+      <h3>Price</h3>
+      <input type="number" placeholder="US$50"/>
+    </view>
+    
+    <view class="view-2columns">
+      <view class="col-25">
+        <h3>Description</h3>
+      </view>
+      <view class="col-75">
+        <textarea placeholder="A place to get lost, and never be found again!" style="height:150px"></textarea>
+      </view>
+    </view>
+
+  </view>
+
+  <view>
+  <button class="button-full">Save</button>
+  </view>
+
+</view>

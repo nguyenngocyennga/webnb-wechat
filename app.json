@@ -6,7 +6,9 @@
     "pages/arrival/arrival",
     "pages/departure/departure",
     "pages/guests/guests",
-    "pages/confirm/confirm"
+    "pages/confirm/confirm",
+    "pages/browse/browse",
+    "pages/create/create"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -14,5 +16,10 @@
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
   },
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "permission": {
+    "scope.userLocation": {
+      "desc": "Location for better search"
+    }
+  }
 }

@@ -1,6 +1,6 @@
 <!--index.wxml-->
 
-<view class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('../../images/apartments/02.png'); background-position: right">
+<view class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('../../images/apartments/03.png'); background-position: right">
   <h2>Find your next exquisite stay with WeBnB</h2>
 </view>
 
@@ -11,23 +11,26 @@
   <view class="view-2columns">
     <view>
       <h3 bindtap="goToArrival">Check in</h3>
-      <input class="input-date-select" type="date" placeholder="mm/dd/yy" 
+      <input class="input-date-select" type="date" 
+      placeholder="mm/dd/yy" 
       bindinput="handleDateArrival"/>
     </view>
   
     <view>
       <h3>Check out</h3>
-      <input class="input-date-select" type="date" placeholder="mm/dd/yy" 
+      <input class="input-date-select" type="date" 
+      placeholder="mm/dd/yy" 
       bindinput="handleDateArrival"/>
     </view>
   </view>
 
     <h3>Guest</h3>
-    <input id="input-capacity" type="number" placeholder="Number of guests" 
+    <input id="input-capacity" type="number" 
+    placeholder="Number of guests" 
     bindinput="handleCapacity"/>
 
     <view>
-      <button class="button-full">Search</button>
+      <button class="button-full" bindtap="goToBrowse">Search</button>
     </view>
 
     <h3>Top Apartments</h3>

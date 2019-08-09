@@ -1,3 +1,77 @@
-<view>
-  <image class="departure-image" src="../../images/trouble-afoot.jpg"/>
+<!--pages/host_confirm/host_confirm.wxml-->
+<!-- <text>pages/host_confirm/host_confirm.wxml</text> -->
+<view class="container">
+
+<view class="apartment-element">
+  <view class="view-2columns">
+    <view class="individual-apartment">
+      <h3> Villa Suite</h3>
+      <text>Entire villa</text>
+    </view>
+    <view class="individual-apartment">
+       <image src="../../images/apartments/03.png"/>
+    </view>
+  </view>
+</view>
+
+<view class="apartment-element">
+  <view class="view-2columns">
+    <view class="individual-apartment">
+      <h4>Guest: Simon Chee</h4>
+      <h4>Phone: 1357986678</h4>
+    </view>
+    <view class="individual-apartment">
+    </view>
+  </view>
+</view>
+
+<view class="apartment-element">
+    <view class="individual-apartment">
+
+    <view class=" view-22columns">
+      <view class="capacity-icon">
+        <image class ="icon" src="../../images/icons/small_guest.png"/>
+      </view>
+      <view><h4>1 guest </h4></view>
+    </view>
+    <view class=" view-22columns">
+      <view class="capacity-icon">
+        <image class ="icon" src="../../images/icons/small_calendar.png"/>
+      </view>
+      <view><h4>Jan 24, 2019 -> Jan 28, 2019</h4></view>
+    </view>
+
+    </view>
+    <view class="individual-apartment">
+    </view>
+</view>
+
+<view class="apartment-element">
+  <view class="view-2columns">
+    <view class="individual-apartment">
+      <h4> <strong>$120 x 4nights</strong> </h4>
+    </view>
+    <view class="individual-apartment">
+      <h4> <strong>$480</strong> </h4>
+    </view>
+  </view>
+</view>
+
+
+<view class="apartment-element">
+  <view class="view-2columns">
+    <view class="individual-apartment">
+      <h3> <strong>Total</strong> </h3>
+    </view>
+    <view class="individual-apartment">
+      <h3> <strong>$496</strong> </h3>
+    </view>
+  </view>
+</view>
+
+<text>Please review and confirm the booking of your guest. The payment will be transfered to your account after your confirmation.</text>
+
+
+<button class="button-full" bindtap="goToIndex" >Confirm Guest's Booking</button>
+
 </view>

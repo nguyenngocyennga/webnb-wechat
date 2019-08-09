@@ -1,0 +1,45 @@
+<view class="container">
+
+<input id="input-location" type="text" placeholder="Search" bindinput="handleCity"/>
+
+<map 
+  bindmarkertap="markertap" 
+  longitude="{{lg}}" 
+  latitude="{{lt}}" 
+  scale="{{sc}}" 
+  style="width: 100%; height: 40vh;" 
+  markers="{{mk}}"
+  show-location>
+</map>
+
+  <h3>Apartments</h3>
+
+  <view class="individual-apartment-full-view" bindtap="goToApartment">
+    <image src="../../images/apartments/03.png"/>
+    <text class="sub-header">PRIVATE ROOM</text>
+    <text class="sub-text">$5 per night</text>
+    <h4>Khmer Cottage</h4>
+  </view>
+
+  <view class="individual-apartment-full-view" bindtap="goToApartment">
+    <image src="../../images/apartments/04.png"/>
+    <text class="sub-header">ENTIRE VILLA</text>
+    <text class="sub-text">$120 per night</text>
+    <h4>Villa Suite</h4>
+  </view>
+
+  <view class="individual-apartment-full-view" bindtap="goToApartment">
+    <image src="../../images/apartments/05.png"/>
+    <text class="sub-header">TENT</text>
+    <text class="sub-text">$75 per night</text>
+    <h4>Auto Camping</h4>
+  </view>
+
+  <view class="individual-apartment-full-view" bindtap="goToApartment">
+    <image src="../../images/apartments/06.png"/>
+    <text class="sub-header">ENTIRE VILLA</text>
+    <text class="sub-text">$245 per night</text>
+    <h4>Villa Suite</h4>
+  </view>
+
+</view>

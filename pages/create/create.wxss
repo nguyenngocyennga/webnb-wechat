@@ -1,0 +1,82 @@
+/* pages/create/create.wxss */
+h1 {
+  font-family: 'Gill Sans MT';
+  font-weight: bold;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Gill Sans MT';
+  font-weight: 900;
+  font-size: 33rpx;
+  color: #37474F;
+}
+.box-container {
+  margin-top: 5px;
+  padding: 10px;
+}
+.grey-container {
+  background-color: lightgrey;
+  padding: 4px;
+}
+
+.message {
+  background:#FFFFFF;
+  height:350px;
+  
+}
+input {
+  background: #FFFFFF;
+  border: 1rpx solid #E1E7ED;
+  box-shadow: 3rpx 3rpx 3rpx rgba(53, 51, 51, 0.123);
+  border-radius: 10rpx;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+  padding: 20rpx;
+}
+
+input:hover {
+  border: 1rpx solid #20E5CE;
+}
+
+.button-full {
+  background-color: #20E5CE;
+  border-radius: 10rpx;
+  color: white;
+  font-weight: bold;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+
+.button-transparent {
+  background: #FFFFFF;
+  border: 1rpx solid #20E5CE;
+  font-weight: bold;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+  border-radius: 10rpx;
+  color: #20E6CE;
+}
+
+.button::after {
+  border: none
+}
+
+.view-2columns {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 30rpx;
+  align-items: center;
+}
+
+.col-75 textarea {
+  width: 75%;
+  background: #FFFFFF;
+  border: 1rpx solid #E1E7ED;
+  box-shadow: 3rpx 3rpx 3rpx rgba(53, 51, 51, 0.123);
+  border-radius: 10rpx;
+  padding: 25px
+}
+.col-75:hover {
+  border: 1rpx solid #20E5CE;
+}
