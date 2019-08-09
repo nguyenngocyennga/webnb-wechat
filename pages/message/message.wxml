@@ -1,6 +1,6 @@
 <!--index.wxml-->
 
-<modal title="Sweet, booking confirmed!" cancelText="Cancel" confirmText="Back" hidden="{{modalHidden1}}" bindconfirm="goToIndex" bindcancel="goToIndex">
+<modal title="Sweet, booking confirmed!" cancelText="Back" confirmText="Home" hidden="{{modalHidden1}}" bindconfirm="goToIndex" bindcancel="goToIndex">
 <text>Your next adventure is waiting for you!</text>
 </modal>
 
