@@ -8,7 +8,13 @@
     "pages/guests/guests",
     "pages/confirm/confirm",
     "pages/browse/browse",
-    "pages/create/create"
+    "pages/create/create",
+    "pages/browse_couple/browse_couple",
+    "pages/browse_family/browse_family",
+    "pages/show_couple/show_couple",
+    "pages/show_family/show_family",
+    "pages/confirm_host/confirm_host",
+    "pages/message/message"
   ],
   "window": {
     "backgroundTextStyle": "light",

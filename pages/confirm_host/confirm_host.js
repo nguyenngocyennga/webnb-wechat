@@ -1,4 +1,4 @@
-// pages/confirm/confirm.js
+// pages/confirm_host/confirm_host.js
 Page({
 
   /**

@@ -1,33 +1,40 @@
 <!--index.wxml-->
 
-<view class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('../../images/apartments/03.png'); background-position: right">
+<view class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('https://mir-s3-cdn-cf.behance.net/project_modules/fs/65797c82347129.5d236fff0bd0c.jpg'); background-position: right">
   <h2>Find your next exquisite stay with WeBnB</h2>
 </view>
 
 <view class="container">
   <h3>Where is your next adventure?</h3>
-  <input id="input-title" type="text" placeholder="Chengdu, Sichuan, China" bindinput="handleCity"/>
+  <input id="input-title" type="text" placeholder="Chengdu, Sichuan, China"
+  bindinput="handleCity"/>
 
   <view class="view-2columns">
     <view>
       <h3 bindtap="goToArrival">Check in</h3>
-      <input class="input-date-select" type="date" 
-      placeholder="mm/dd/yy" 
-      bindinput="handleDateArrival"/>
+        <picker mode="date" value="{{dateArrival}}" start="2019-06-01" end="2020-09-01"
+          bindchange="bindDateArrivalChange">
+          <button class="input">{{dateArrival}}</button>
+        </picker>
     </view>
   
     <view>
       <h3>Check out</h3>
-      <input class="input-date-select" type="date" 
-      placeholder="mm/dd/yy" 
-      bindinput="handleDateArrival"/>
+        <picker mode="date" value="{{dateDeparture}}" start="2019-06-01" end="2020-09-01"
+          bindchange="bindDateDepartureChange">
+            <button class="input">{{dateDeparture}}</button>
+        </picker>
     </view>
   </view>
 
-    <h3>Guest</h3>
-    <input id="input-capacity" type="number" 
-    placeholder="Number of guests" 
-    bindinput="handleCapacity"/>
+    <h3>Number of nights</h3>
+    <input class="input" type="date" value="{{numberOfNights}}"/>
+
+    <h3>Travelling as</h3>
+      <picker bindchange="bindCategoryChange" value="{{categoryIndex}}" range="{{categories}}">
+        <!-- <view class="weui-select">{{categories[category]}}</view> -->
+        <button class="input">{{categories[categoryIndex]}}</button>
+      </picker>
 
     <view>
       <button class="button-full" bindtap="goToBrowse">Search</button>
@@ -66,7 +73,7 @@
     </view>
 
     <view>
-      <button class="button-transparent">Show all apartments</button>
+      <button class="button-transparent" bindtap="goToBrowseAll">Show all apartments</button>
     </view>
 </view>
 

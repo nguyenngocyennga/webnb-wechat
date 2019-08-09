@@ -1,0 +1,72 @@
+<!--pages/show/show.wxml-->
+  <view class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(https://images.unsplash.com/photo-1504494683949-7319a9ba12d1);">
+    <!-- <view class="button-view-photos">
+      <button>View photos</button>
+    </view> -->
+  </view>
+
+<view class="container">
+  <text class="apartment-sub-header"> Private Room </text>
+  <h1> Bird's-eye View </h1>
+
+  <view class="view-2columns">
+    <view class="capacity-icon">
+      <image class ="icon" src="../../images/icons/guest.png"/>
+      <h3>5-10 guests</h3>
+    </view>
+    <view class="capacity-icon">
+      <image class = "icon" src="../../images/icons/bed_1.png"/>
+      <h3>4 beds</h3>
+    </view>
+  </view>
+
+  <view class="apartment-element">
+    <h3>The space </h3>
+    <text> Luxury Home with Perfect Privacy Right </text>
+    <h3>Family Feature </h3>
+    <text>These newly remodeled 4 Bedroom, 2 Bathrooms offer privacy, seclusion, and big kitchen with all the amenities to cook a feast. </text>
+  </view>
+ 
+  <view class="individual-apartment" bindtap="goToApartment">
+    <image src="https://images.unsplash.com/photo-1556909172-54557c7e4fb7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"/>
+      <text class="sub-header">Cooking in Color</text>
+      <view><h4>Freestanding Range Oven</h4></view>
+  </view>
+
+
+  <view class="individual-apartment" bindtap="goToApartment">
+    <image src="https://images.unsplash.com/photo-1542232127-55b456c17fd7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"/>
+    <text class="sub-header">Several Pool Floats on Pool</text>
+    <view><h4>Children's Love</h4></view>
+  </view>
+
+
+  <view class="apartment-element">
+    <h3> Capacity </h3>
+    <view class="card-border_gray">
+      <image class ="icon" src="../../images/icons/bed_2.png"/> 
+      <h3>4 Bedrooms</h3>
+      <text>4 double beds</text>
+    </view>
+  </view>
+
+  <view class="apartment-element">
+    <h3>For Families</h3>
+    <text class="apartment-sub-header">Update 3 days ago</text>
+    <view>
+      <image class="calendar-image" src="../../images/icons/calendar_family.png" />
+    </view>
+  </view>
+
+  <view class="apartment-element">
+    <view class="view-2columns">
+      <view class="apartment-price">
+        <h3>Gorgeous Home!</h3>
+        <text>$199 per night</text>
+      </view>
+      <view>
+        <button class="button-full" bindtap="goToConfirm">Book</button>
+      </view>
+    </view>
+  </view>
+</view>

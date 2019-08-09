@@ -1,6 +1,9 @@
+<!--pages/browse_couple/browse_couple.wxml-->
+<!-- <text>pages/browse_couple/browse_couple.wxml</text> -->
+
 <view class="container">
 
-<input id="input-location" type="text" placeholder="Search" bindinput="handleCity"/>
+<input id="input-location" type="text" placeholder="Hideaway near Chengdu" bindinput="handleCity"/>
 
 <map 
   bindmarkertap="markertap" 
@@ -12,37 +15,9 @@
   show-location>
 </map>
 
-  <h3>Apartments</h3>
+  <h3>For you and your special one</h3>
 
   <view class="individual-apartment-full-view" bindtap="goToApartment">
-    <image src="https://images.unsplash.com/photo-1504494683949-7319a9ba12d1"/>
-    <text class="sub-header">Bird's-eye View</text>
-    <text class="sub-text">$199 per night</text>
-    <h4>Newly Constructed Cottage</h4>
-  </view>
-
-  <view class="individual-apartment-full-view" bindtap="goToApartment">
-    <image src="https://images.unsplash.com/photo-1499916078039-922301b0eb9b"/>
-    <text class="sub-header">Wooden framed furniture and indoor green plants </text>
-    <text class="sub-text">$80 per night</text>
-    <h4>Comfort and Release</h4>
-  </view>
-
-  <view class="individual-apartment-full-view" bindtap="goToApartment">
-    <image src="https://images.unsplash.com/photo-1495433324511-bf8e92934d90"/>
-    <text class="sub-header">Large Kitchen with an Open Vie</text>
-    <text class="sub-text">$75 per night</text>
-    <h4>You will be in me</h4>
-  </view>
-
-  <view class="individual-apartment-full-view" bindtap="goToApartment">
-    <image src="https://images.unsplash.com/photo-1536376072261-38c75010e6c9"/>
-    <text class="sub-header">Wall of Books</text>
-    <text class="sub-text">$50 per night</text>
-    <h4>An Impressive Stay Here</h4>
-  </view>
-
-    <view class="individual-apartment-full-view" bindtap="goToApartment">
     <image src="https://bushtecadventureusa.com/wp-content/uploads/2016/10/bushtec-adventure-usa-glamping-ngala-camp-3.jpg"/>
     <text class="sub-header">Exquisite Luxury Tent</text>
     <text class="sub-text">$60 per night</text>

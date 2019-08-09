@@ -1,0 +1,45 @@
+<view class="container">
+
+<input id="input-location" type="text" placeholder="Family Apartments in Guangzhou, China" bindinput="handleCity"/>
+
+<map 
+  bindmarkertap="markertap" 
+  longitude="{{lg}}" 
+  latitude="{{lt}}" 
+  scale="{{sc}}" 
+  style="width: 100%; height: 40vh;" 
+  markers="{{mk}}"
+  show-location>
+</map>
+
+  <h3>Apartments for your family</h3>
+
+  <view class="individual-apartment-full-view" bindtap="goToApartment">
+    <image src="https://images.unsplash.com/photo-1504494683949-7319a9ba12d1"/>
+    <text class="sub-header">Bird's-eye View</text>
+    <text class="sub-text">$199 per night</text>
+    <h4>Newly Constructed Cottage</h4>
+  </view>
+
+  <view class="individual-apartment-full-view" bindtap="goToApartment">
+    <image src="https://images.unsplash.com/photo-1499916078039-922301b0eb9b"/>
+    <text class="sub-header">Wooden framed furniture and indoor green plants </text>
+    <text class="sub-text">$80 per night</text>
+    <h4>Comfort and Release</h4>
+  </view>
+
+  <view class="individual-apartment-full-view" bindtap="goToApartment">
+    <image src="https://images.unsplash.com/photo-1495433324511-bf8e92934d90"/>
+    <text class="sub-header">Large Kitchen with an Open Vie</text>
+    <text class="sub-text">$75 per night</text>
+    <h4>You will be in me</h4>
+  </view>
+
+  <view class="individual-apartment-full-view" bindtap="goToApartment">
+    <image src="https://images.unsplash.com/photo-1536376072261-38c75010e6c9"/>
+    <text class="sub-header">Wall of Books</text>
+    <text class="sub-text">$50 per night</text>
+    <h4>An Impressive Stay Here</h4>
+  </view>
+
+</view>

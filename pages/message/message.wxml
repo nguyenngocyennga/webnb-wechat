@@ -1,0 +1,7 @@
+<!--index.wxml-->
+
+<modal title="Sweet, booking confirmed!" cancelText="Cancel" confirmText="Back" hidden="{{modalHidden1}}" bindconfirm="goToIndex" bindcancel="goToIndex">
+<text>Your next adventure is waiting for you!</text>
+</modal>
+
+<image class="background-image" src="https://images.unsplash.com/photo-1502301197179-65228ab57f78"/>

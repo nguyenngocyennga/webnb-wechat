@@ -1,4 +1,4 @@
-// pages/confirm/confirm.js
+// pages/show_couple/show_couple.js
 Page({
 
   /**
@@ -63,9 +63,9 @@ Page({
   onShareAppMessage: function () {
 
   },
-  goToMessage: function () {
+  goToConfirm: function () {
     wx.navigateTo({
-      url: '/pages/message/message',
+      url: '/pages/confirm/confirm',
     })
   }
 })

@@ -1,16 +1,12 @@
 // pages/browse/browse.js
 Page({
-
-  /**
-   * Page initial data
-   */
   data: {
     lt: "30.65235",
     lg: "104.08206",
     sc: '13',
     mk: [
     {
-      iconPath: "../../images/icons/trip.png", // **1
+        iconPath: "http://icons.iconarchive.com/icons/graphicloads/100-flat/256/home-icon.png", // **1
       id: 0,
       latitude: 30.65235,
       longitude: 104.08206,

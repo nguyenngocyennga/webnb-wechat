@@ -9,6 +9,7 @@
   flex-direction: column;
   text-align: center;
   position: relative;
+  
 }
 
 h2 {
@@ -37,6 +38,39 @@ input {
   margin-top: 30rpx;
   margin-bottom: 30rpx;
   padding: 20rpx;
+}
+
+.input {
+  background: #FFFFFF;
+  border: 1rpx solid #E1E7ED;
+  box-shadow: 3rpx 3rpx 3rpx rgba(253, 70, 70, 0.123);
+  border-radius: 10rpx;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+  font-size: 33rpx;
+  text-align: left;
+}
+
+.categories {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.category {
+  background: #FFFFFF;
+  border: 1rpx solid #E1E7ED;
+  box-shadow: 3rpx 3rpx 3rpx rgba(253, 70, 70, 0.123);
+  border-radius: 10rpx;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+  font-size: 33rpx;
+  text-align: left;
+}
+
+.category:hover {
+  background: rgb(198, 253, 247);
+  border: 1rpx solid rgb(198, 253, 247);
 }
 
 input:hover {

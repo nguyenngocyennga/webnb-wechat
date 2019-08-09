@@ -5,11 +5,11 @@
 <view class="apartment-element">
   <view class="view-2columns">
     <view class="individual-apartment">
-      <h3> Villa Suite</h3>
-      <text>Entire villa</text>
+      <h3>Bird's-eye View</h3>
+      <text>Luxury Home with Perfect Privacy</text>
     </view>
     <view class="individual-apartment">
-       <image src="../../images/apartments/03.png"/>
+       <image src="https://images.unsplash.com/photo-1504494683949-7319a9ba12d1"/>
     </view>
   </view>
 </view>
@@ -17,8 +17,8 @@
 <view class="apartment-element">
   <view class="view-2columns">
     <view class="individual-apartment">
-      <h4>Guest: Nga Nguyen</h4>
-      <h4>Phone: 135 798 8888</h4>
+      <h4>Guest: Lulu</h4>
+      <h4>Phone: 135 798 6678</h4>
     </view>
     <view class="individual-apartment">
     </view>
@@ -32,13 +32,13 @@
       <view class="capacity-icon">
         <image class ="icon" src="../../images/icons/small_guest.jpg"/>
       </view>
-      <view><h4>2 guests </h4></view>
+      <view><h4>10 guests </h4></view>
     </view>
     <view class=" view-22columns">
       <view class="capacity-icon">
         <image class ="icon" src="../../images/icons/small_calendar.jpg"/>
       </view>
-      <view><h4>Aug 27, 2019 -> Aug 30, 2019</h4></view>
+      <view><h4>Oct 01, 2019 -> Oct 07, 2019</h4></view>
     </view>
 
     </view>
@@ -49,10 +49,10 @@
 <view class="apartment-element">
   <view class="view-2columns">
     <view class="individual-apartment">
-      <h4> <strong>$75 x 3 nights</strong> </h4>
+      <h4> <strong>$199 x 6 nights</strong> </h4>
     </view>
     <view class="individual-apartment">
-      <h4> <strong>$225</strong> </h4>
+      <h4> <strong>$1,194</strong> </h4>
     </view>
   </view>
 </view>
@@ -64,7 +64,7 @@
       <h3> <strong>Total</strong> </h3>
     </view>
     <view class="individual-apartment">
-      <h3> <strong>$225</strong> </h3>
+      <h3> <strong>$1,194</strong> </h3>
     </view>
   </view>
 </view>

@@ -40,7 +40,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 3,
+			"current": 12,
 			"list": [
 				{
 					"id": -1,
@@ -67,6 +67,70 @@
 					"id": -1,
 					"name": "pages/browse/browse",
 					"pathName": "pages/browse/browse",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/index/index",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 5,
+					"name": "pages/browse_couple/browse_couple",
+					"pathName": "pages/browse_couple/browse_couple",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/browse_family/browse_family",
+					"pathName": "pages/browse_family/browse_family",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/browse_couple/browse_couple",
+					"pathName": "pages/browse_couple/browse_couple",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/browse_family/browse_family",
+					"pathName": "pages/browse_family/browse_family",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/show_family/show_family",
+					"pathName": "pages/show_family/show_family",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/show_couple/show_couple",
+					"pathName": "pages/show_couple/show_couple",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/confirm_host/confirm_host",
+					"pathName": "pages/confirm_host/confirm_host",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/message/message",
+					"pathName": "pages/message/message",
+					"query": "",
 					"scene": null
 				}
 			]

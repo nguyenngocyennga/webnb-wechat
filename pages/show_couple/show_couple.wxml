@@ -1,0 +1,71 @@
+<!--pages/show_couple/show_couple.wxml-->
+<!-- <text>pages/show_couple/show_couple.wxml</text> -->
+<view class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/4cfaf767175241.5b30d522afeb3.jpg);">
+    <!-- <view class="button-view-photos">
+      <button>View photos</button>
+    </view> -->
+  </view>
+
+<view class="container">
+  <text class="apartment-sub-header"> Execlusive Bungalow </text>
+  <h1> Villa Jasmine </h1>
+
+  <view class="view-2columns">
+    <view class="capacity-icon">
+      <image class ="icon" src="../../images/icons/guest.png"/>
+      <h3>2 guests</h3>
+    </view>
+    <view class="capacity-icon">
+      <image class = "icon" src="../../images/icons/bed_1.png"/>
+      <h3>1 bed</h3>
+    </view>
+  </view>
+
+    <view class="apartment-element">
+      <h3>The space </h3>
+      <text>Newly renovated bungalow  up in the mountain of EMei Shan. A place of where one can                 experience eternity, with a quite and peace environment with your love ones.  </text>
+      <h3>Couple Feature </h3>
+      <text>Build in Jacuzzi overseeing Mountain & Tranquility Water Bed Mattress </text>
+    </view>
+
+
+  <view class="individual-apartment" bindtap="goToApartment">
+    <image style="position: center" src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/15b22270819029.5bb0558788963.jpg"/>
+      <text class="sub-header">Private Bed Room</text>
+      <view><h4>Tranquility Water Bed</h4></view>
+  </view>
+  <view class="individual-apartment" bindtap="goToApartment">
+    <image src="https://www.newzealand.com/assets/Tourism-NZ/Queenstown/34dcf35f86/img-1536317593-2967-29681-207994FC-D02D-FBB9-0AFE517324859C8A__CropResizeWzUwMCwzNzUsODAsImpwZyJd.jpg"/>
+    <text class="sub-header">Outdoor Mountain View</text>
+    <view><h4>Jacuzzi Tub</h4></view>
+  
+</view>
+  <view class="apartment-element">
+    <h3> Capacity </h3>
+    <view class="card-border_gray">
+      <image class ="icon" src="../../images/icons/bed_2.png"/> 
+      <h3>Bedroom 1</h3>
+      <text>1 super king beds</text>
+    </view>
+  </view>
+
+  <view class="apartment-element">
+    <h3>Availabiltity</h3>
+    <text class="apartment-sub-header">Update 3 days ago</text>
+    <view>
+      <image class="calendar-image" src="../../images/icons/calendar_couple.png" />
+    </view>
+  </view>
+
+  <view class="apartment-element">
+    <view class="view-2columns">
+      <view class="apartment-price">
+        <h3>Villa Jasmine</h3>
+        <text>$75 per night</text>
+      </view>
+      <view>
+        <button class="button-full" bindtap="goToConfirm">Book</button>
+      </view>
+    </view>
+  </view>
+</view>
