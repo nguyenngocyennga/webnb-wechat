@@ -45,7 +45,7 @@
     <view class="card-border_gray">
       <image class ="icon" src="../../images/icons/bed_2.png"/> 
       <h3>Bedroom 1</h3>
-      <text>1 super king beds</text>
+      <text>1 super king bed</text>
     </view>
   </view>
 
